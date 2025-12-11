@@ -105,8 +105,8 @@
     "interactive-mode.md": {
       "original_url": "https://code.claude.com/docs/en/interactive-mode",
       "original_md_url": "https://code.claude.com/docs/en/interactive-mode.md",
-      "hash": "272544d792d051f1cb9ac5b735d9f1e61a8682ad47861d5e08bef216bd280771",
-      "last_updated": "2025-12-05T12:12:44.823663"
+      "hash": "108e59c5f5dbe7d1507740b1f016125d3c6c1ec96815859f267048360f4e522b",
+      "last_updated": "2025-12-11T18:09:51.244489"
     },
     "jetbrains.md": {
       "original_url": "https://code.claude.com/docs/en/jetbrains",
@@ -291,8 +291,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2025-12-11T15:08:44.759731",
-    "fetch_duration_seconds": 28.385042,
+    "last_fetch_completed": "2025-12-11T18:10:11.095101",
+    "fetch_duration_seconds": 30.663873,
     "total_pages_discovered": 47,
     "pages_fetched_successfully": 48,
     "pages_failed": 0,
@@ -302,7 +302,7 @@
     "total_files": 48,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2025-12-11T15:08:44.759759",
+  "last_updated": "2025-12-11T18:10:11.095127",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
