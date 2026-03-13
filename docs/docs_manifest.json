@@ -64,8 +64,8 @@
     "code-review.md": {
       "original_url": "https://code.claude.com/docs/en/code-review",
       "original_md_url": "https://code.claude.com/docs/en/code-review.md",
-      "hash": "db0758c863514f5d8b3f5d915209422457a596ae856b8c48c3ba670c40d9e73f",
-      "last_updated": "2026-03-12T18:23:15.457724"
+      "hash": "67a6841a62af0a2b10261e9463771cbc8a70001198ee437df98070d3257eea4d",
+      "last_updated": "2026-03-13T06:23:39.141644"
     },
     "common-workflows.md": {
       "original_url": "https://code.claude.com/docs/en/common-workflows",
@@ -369,8 +369,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-03-13T03:51:08.347680",
-    "fetch_duration_seconds": 34.61876,
+    "last_fetch_completed": "2026-03-13T06:24:07.889594",
+    "fetch_duration_seconds": 34.836224,
     "total_pages_discovered": 61,
     "pages_fetched_successfully": 62,
     "pages_failed": 0,
@@ -380,7 +380,7 @@
     "total_files": 61,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-03-13T03:51:08.347710",
+  "last_updated": "2026-03-13T06:24:07.889623",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
