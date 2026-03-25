@@ -238,8 +238,8 @@
     "model-config.md": {
       "original_url": "https://code.claude.com/docs/en/model-config",
       "original_md_url": "https://code.claude.com/docs/en/model-config.md",
-      "hash": "07fbe4a5d636c8814b9cbf4b0bc16887395603ff6f9318d827d7136e87a05bf2",
-      "last_updated": "2026-03-20T03:50:56.322459"
+      "hash": "cbb27debd31fa691051f34dd8c61c9cc74797c77fe1948107a9731c3ba94a4ad",
+      "last_updated": "2026-03-25T18:25:52.782108"
     },
     "monitoring-usage.md": {
       "original_url": "https://code.claude.com/docs/en/monitoring-usage",
@@ -423,8 +423,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-03-25T15:32:02.798048",
-    "fetch_duration_seconds": 44.621634,
+    "last_fetch_completed": "2026-03-25T18:26:10.880962",
+    "fetch_duration_seconds": 42.193249,
     "total_pages_discovered": 70,
     "pages_fetched_successfully": 71,
     "pages_failed": 0,
@@ -434,7 +434,7 @@
     "total_files": 70,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-03-25T15:32:02.798078",
+  "last_updated": "2026-03-25T18:26:10.880992",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
