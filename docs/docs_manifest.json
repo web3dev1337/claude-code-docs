@@ -130,8 +130,8 @@
     "env-vars.md": {
       "original_url": "https://code.claude.com/docs/en/env-vars",
       "original_md_url": "https://code.claude.com/docs/en/env-vars.md",
-      "hash": "e6cdff08f170a2277abd6e257dcf038e2dd905d25e44951612a7e1da10b18bf8",
-      "last_updated": "2026-03-26T00:42:41.867669"
+      "hash": "1f36d65aa50a59510505b3366e6509bdb8e24ee1a9eac29ec641889461825a6c",
+      "last_updated": "2026-03-26T04:00:42.825262"
     },
     "fast-mode.md": {
       "original_url": "https://code.claude.com/docs/en/fast-mode",
@@ -172,8 +172,8 @@
     "hooks.md": {
       "original_url": "https://code.claude.com/docs/en/hooks",
       "original_md_url": "https://code.claude.com/docs/en/hooks.md",
-      "hash": "9327b6dcb419d7fcd7b853bec5f6e07725649a53f2b2fecba45cd44a526fddea",
-      "last_updated": "2026-03-26T00:42:45.895202"
+      "hash": "6793edba80c0daddf89e3b65e42f1701608cbb84e389400531c3d0bf47eba71d",
+      "last_updated": "2026-03-26T04:00:46.917126"
     },
     "hooks-guide.md": {
       "original_url": "https://code.claude.com/docs/en/hooks-guide",
@@ -202,8 +202,8 @@
     "keybindings.md": {
       "original_url": "https://code.claude.com/docs/en/keybindings",
       "original_md_url": "https://code.claude.com/docs/en/keybindings.md",
-      "hash": "9cffb9633377251e96092108c39d650cc9b47cdb7808f8d3bbf4ecb65b276dae",
-      "last_updated": "2026-03-26T00:42:48.740726"
+      "hash": "9ce2e48a02ae9a2e56394d45cee01f77774eaa9b712becf22adc76ccf03baf2e",
+      "last_updated": "2026-03-26T04:00:50.412578"
     },
     "legal-and-compliance.md": {
       "original_url": "https://code.claude.com/docs/en/legal-and-compliance",
@@ -238,8 +238,8 @@
     "model-config.md": {
       "original_url": "https://code.claude.com/docs/en/model-config",
       "original_md_url": "https://code.claude.com/docs/en/model-config.md",
-      "hash": "cbb27debd31fa691051f34dd8c61c9cc74797c77fe1948107a9731c3ba94a4ad",
-      "last_updated": "2026-03-25T18:25:52.782108"
+      "hash": "8612937e082e2054f1de6426917afc44a6718c550a39715716926aa95f8158b7",
+      "last_updated": "2026-03-26T04:00:53.908475"
     },
     "monitoring-usage.md": {
       "original_url": "https://code.claude.com/docs/en/monitoring-usage",
@@ -423,8 +423,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-03-26T00:43:09.399675",
-    "fetch_duration_seconds": 39.787422,
+    "last_fetch_completed": "2026-03-26T04:01:11.898569",
+    "fetch_duration_seconds": 41.672203,
     "total_pages_discovered": 70,
     "pages_fetched_successfully": 71,
     "pages_failed": 0,
@@ -434,7 +434,7 @@
     "total_files": 70,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-03-26T00:43:09.399693",
+  "last_updated": "2026-03-26T04:01:11.898599",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
