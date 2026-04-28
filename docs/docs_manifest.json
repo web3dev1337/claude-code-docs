@@ -250,8 +250,8 @@
     "claude-code-on-the-web.md": {
       "original_url": "https://code.claude.com/docs/en/claude-code-on-the-web",
       "original_md_url": "https://code.claude.com/docs/en/claude-code-on-the-web.md",
-      "hash": "69d53821d44f8714f0224a99f410429593f782b8271e997f60e614bc5fcd0a5f",
-      "last_updated": "2026-04-16T21:21:14.813975"
+      "hash": "b0b84323e66c666fe08fab8810c3ecdb46ebf0f3407560e2635240d988a4f28a",
+      "last_updated": "2026-04-28T07:03:49.118858"
     },
     "claude-directory.md": {
       "original_url": "https://code.claude.com/docs/en/claude-directory",
@@ -580,8 +580,8 @@
     "server-managed-settings.md": {
       "original_url": "https://code.claude.com/docs/en/server-managed-settings",
       "original_md_url": "https://code.claude.com/docs/en/server-managed-settings.md",
-      "hash": "b9704970c7005ac823011707c1a5cc4fdb318d1d401e6c3a81e75c635432aac9",
-      "last_updated": "2026-04-22T21:22:52.342291"
+      "hash": "1b3b391b14a0f0aabf807f4bae6481e84622925dcf2a8ac8aacf0e23fe02eeef",
+      "last_updated": "2026-04-28T07:04:18.904684"
     },
     "settings.md": {
       "original_url": "https://code.claude.com/docs/en/settings",
@@ -640,8 +640,8 @@
     "troubleshooting.md": {
       "original_url": "https://code.claude.com/docs/en/troubleshooting",
       "original_md_url": "https://code.claude.com/docs/en/troubleshooting.md",
-      "hash": "a81eebea9195539149bfa6f4bf3beb2c35b732d62c09967e1c257587a4d01532",
-      "last_updated": "2026-04-28T04:20:37.760134"
+      "hash": "d3391960134937b017cacd1c1b6a74e1b0873b8eced002cf0c1d2ec49e72504c",
+      "last_updated": "2026-04-28T07:04:24.219391"
     },
     "ultraplan.md": {
       "original_url": "https://code.claude.com/docs/en/ultraplan",
@@ -717,8 +717,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-04-28T04:20:44.248099",
-    "fetch_duration_seconds": 63.838917,
+    "last_fetch_completed": "2026-04-28T07:04:30.623278",
+    "fetch_duration_seconds": 63.483241,
     "total_pages_discovered": 119,
     "pages_fetched_successfully": 120,
     "pages_failed": 0,
@@ -728,7 +728,7 @@
     "total_files": 119,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-04-28T04:20:44.248125",
+  "last_updated": "2026-04-28T07:04:30.623309",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
