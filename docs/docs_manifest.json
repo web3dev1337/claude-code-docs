@@ -364,14 +364,14 @@
     "env-vars.md": {
       "original_url": "https://code.claude.com/docs/en/env-vars",
       "original_md_url": "https://code.claude.com/docs/en/env-vars.md",
-      "hash": "41a010f42111da623ab1b68932bedda3e6d988b70b22052f4011aed6f3515673",
-      "last_updated": "2026-05-05T15:43:01.071962"
+      "hash": "e5be813de1040851fc125c4beed3cf30a0155d214c7828c8343349b888c273c3",
+      "last_updated": "2026-05-06T00:51:02.145694"
     },
     "errors.md": {
       "original_url": "https://code.claude.com/docs/en/errors",
       "original_md_url": "https://code.claude.com/docs/en/errors.md",
-      "hash": "ef4e86bd9501c2b4b9129173128b5c97fe786873070ba748ccad0058ab480eaa",
-      "last_updated": "2026-05-02T18:25:14.663798"
+      "hash": "d31f7461cfa8d544378578b00651d6296d505f8037287a854c96822fccaade6a",
+      "last_updated": "2026-05-06T00:51:02.703014"
     },
     "fast-mode.md": {
       "original_url": "https://code.claude.com/docs/en/fast-mode",
@@ -508,8 +508,8 @@
     "network-config.md": {
       "original_url": "https://code.claude.com/docs/en/network-config",
       "original_md_url": "https://code.claude.com/docs/en/network-config.md",
-      "hash": "780b6a33f61f0e6fa672db8bd30f7fb82876ed99fe2873d742546097792a4b77",
-      "last_updated": "2026-04-27T18:36:17.024502"
+      "hash": "24f1fc26e6f1db6abf79968bbf96d8a178f1d41b9264340dcc976846a5e3421d",
+      "last_updated": "2026-05-06T00:51:15.954098"
     },
     "output-styles.md": {
       "original_url": "https://code.claude.com/docs/en/output-styles",
@@ -747,8 +747,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-05T21:28:44.156805",
-    "fetch_duration_seconds": 98.14255,
+    "last_fetch_completed": "2026-05-06T00:51:37.849838",
+    "fetch_duration_seconds": 70.211509,
     "total_pages_discovered": 124,
     "pages_fetched_successfully": 125,
     "pages_failed": 0,
@@ -758,7 +758,7 @@
     "total_files": 124,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-05T21:28:44.156834",
+  "last_updated": "2026-05-06T00:51:37.849862",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
