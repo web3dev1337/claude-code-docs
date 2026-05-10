@@ -370,8 +370,8 @@
     "errors.md": {
       "original_url": "https://code.claude.com/docs/en/errors",
       "original_md_url": "https://code.claude.com/docs/en/errors.md",
-      "hash": "094d102359a36353ab5b8028a4a191030c0249aaaa3c1938bc3a5cc834dce7bd",
-      "last_updated": "2026-05-09T04:13:38.990848"
+      "hash": "983882df4b947dede26f7f88054392aefa6bd7ef0f272ff98574466d2ef57885",
+      "last_updated": "2026-05-10T04:26:06.953845"
     },
     "fast-mode.md": {
       "original_url": "https://code.claude.com/docs/en/fast-mode",
@@ -759,8 +759,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-10T00:59:40.754627",
-    "fetch_duration_seconds": 68.033708,
+    "last_fetch_completed": "2026-05-10T04:26:41.168577",
+    "fetch_duration_seconds": 67.538645,
     "total_pages_discovered": 126,
     "pages_fetched_successfully": 127,
     "pages_failed": 0,
@@ -770,7 +770,7 @@
     "total_files": 126,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-10T00:59:40.754652",
+  "last_updated": "2026-05-10T04:26:41.168611",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
