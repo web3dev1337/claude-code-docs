@@ -616,8 +616,8 @@
     "routines.md": {
       "original_url": "https://code.claude.com/docs/en/routines",
       "original_md_url": "https://code.claude.com/docs/en/routines.md",
-      "hash": "9edc52477468f6bedda15381bc07180ef4bd0a800ecc69b5122369156c78cba9",
-      "last_updated": "2026-05-19T16:10:11.107861"
+      "hash": "27213e9ed746e4bde09615714f53bf8e5478c2d6948ee0bdf4eae1df96f73606",
+      "last_updated": "2026-05-20T01:03:44.206375"
     },
     "sandboxing.md": {
       "original_url": "https://code.claude.com/docs/en/sandboxing",
@@ -807,8 +807,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-05-19T21:37:18.562316",
-    "fetch_duration_seconds": 74.337581,
+    "last_fetch_completed": "2026-05-20T01:04:00.855287",
+    "fetch_duration_seconds": 71.55599,
     "total_pages_discovered": 134,
     "pages_fetched_successfully": 135,
     "pages_failed": 0,
@@ -818,7 +818,7 @@
     "total_files": 134,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-05-19T21:37:18.562337",
+  "last_updated": "2026-05-20T01:04:00.855312",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
