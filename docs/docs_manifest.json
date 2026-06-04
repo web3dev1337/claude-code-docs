@@ -93,8 +93,8 @@
     "agent-sdk__python.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/python",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/python.md",
-      "hash": "a585b4ea25834cfe6274b6ee07b90f6d6a6f78b8ad69b8cd601f8b723add9584",
-      "last_updated": "2026-06-02T01:08:32.622729"
+      "hash": "2eaf97a2d476b9543dd374509979da6d7b9ea7242938f0d83a335c8c55955075",
+      "last_updated": "2026-06-04T21:36:51.624232"
     },
     "agent-sdk__quickstart.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/quickstart",
@@ -873,8 +873,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-04T18:57:40.604508",
-    "fetch_duration_seconds": 148.830826,
+    "last_fetch_completed": "2026-06-04T21:39:13.991466",
+    "fetch_duration_seconds": 161.524451,
     "total_pages_discovered": 145,
     "pages_fetched_successfully": 146,
     "pages_failed": 0,
@@ -884,7 +884,7 @@
     "total_files": 145,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-06-04T18:57:40.604543",
+  "last_updated": "2026-06-04T21:39:13.991496",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
