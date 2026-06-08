@@ -706,8 +706,8 @@
     "skills.md": {
       "original_url": "https://code.claude.com/docs/en/skills",
       "original_md_url": "https://code.claude.com/docs/en/skills.md",
-      "hash": "66eff8091edc01275e41a5c1c045073fdfbc5efc1cc0a64deaceee7d8f2d59eb",
-      "last_updated": "2026-06-05T21:37:26.686961"
+      "hash": "49e578de5a478bdb7aaf245a1c37c2d7259b6c73a16b9c94da56e8c9579b0142",
+      "last_updated": "2026-06-08T19:00:40.717505"
     },
     "slack.md": {
       "original_url": "https://code.claude.com/docs/en/slack",
@@ -873,8 +873,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-08T16:28:30.252955",
-    "fetch_duration_seconds": 143.996276,
+    "last_fetch_completed": "2026-06-08T19:01:22.507661",
+    "fetch_duration_seconds": 238.471731,
     "total_pages_discovered": 145,
     "pages_fetched_successfully": 146,
     "pages_failed": 0,
@@ -884,7 +884,7 @@
     "total_files": 145,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-06-08T16:28:30.252988",
+  "last_updated": "2026-06-08T19:01:22.507692",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
