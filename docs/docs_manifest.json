@@ -586,8 +586,8 @@
     "permissions.md": {
       "original_url": "https://code.claude.com/docs/en/permissions",
       "original_md_url": "https://code.claude.com/docs/en/permissions.md",
-      "hash": "828701f97a6a2d4e7e16707b67860d51bd2554392a3e9c5d7b59359362802b0e",
-      "last_updated": "2026-06-16T01:17:36.833996"
+      "hash": "1964ac94612ea4c83d0a15bf13279d7ba63691d9c78df7c1c16652bd59466f4a",
+      "last_updated": "2026-06-16T19:19:58.812514"
     },
     "platforms.md": {
       "original_url": "https://code.claude.com/docs/en/platforms",
@@ -891,8 +891,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-16T16:38:14.224477",
-    "fetch_duration_seconds": 144.713613,
+    "last_fetch_completed": "2026-06-16T19:20:42.616911",
+    "fetch_duration_seconds": 150.801396,
     "total_pages_discovered": 148,
     "pages_fetched_successfully": 149,
     "pages_failed": 0,
@@ -902,7 +902,7 @@
     "total_files": 148,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-06-16T16:38:14.224507",
+  "last_updated": "2026-06-16T19:20:42.616942",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
