@@ -939,8 +939,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-06-29T16:23:25.919206",
-    "fetch_duration_seconds": 178.687808,
+    "last_fetch_completed": "2026-06-29T18:53:23.521061",
+    "fetch_duration_seconds": 310.403208,
     "total_pages_discovered": 156,
     "pages_fetched_successfully": 157,
     "pages_failed": 0,
@@ -950,7 +950,7 @@
     "total_files": 156,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-06-29T16:23:25.919239",
+  "last_updated": "2026-06-29T18:53:23.521091",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
