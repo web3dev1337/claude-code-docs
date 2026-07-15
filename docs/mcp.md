@@ -832,7 +832,7 @@ Server names added through `claude mcp` commands can contain only letters, numbe
 
 ## Use MCP servers from claude.ai
 
-If you've logged into Claude Code with a [claude.ai](https://claude.ai) account, MCP servers you've added in claude.ai are automatically available in Claude Code:
+If you've logged into Claude Code with a [claude.ai](https://claude.ai) account, MCP servers you've added in claude.ai, known as [connectors](https://claude.com/docs/connectors), are automatically available in Claude Code:
 
 <Steps>
   <Step title="Configure MCP servers in claude.ai">
@@ -863,6 +863,15 @@ If `/mcp` doesn't list a connector you added, run `/status` to confirm which aut
 A server you've added in Claude Code takes [precedence](#scope-hierarchy-and-precedence) over a claude.ai connector that points at the same URL. When this happens, `/mcp` lists the connector as hidden and shows how to remove the duplicate if you'd rather use the connector.
 
 Some Anthropic-hosted connectors, such as Microsoft 365, Gmail, and Google Calendar, don't support local OAuth from Claude Code because the upstream identity provider only accepts the redirect URL that claude.ai registered. From v2.1.162, authenticating one of these hosts in `/mcp` shows a message directing you to connect it at Settings → Connectors on claude.ai instead. Once connected there, the connector appears in Claude Code automatically.
+
+### Organization controls on connector tools
+
+Your organization can set per-tool controls on [claude.ai connectors](https://claude.com/docs/connectors). Claude Code reads these settings at startup and enforces them locally. Run `/mcp` to see which setting applies to each tool on a connector.
+
+* **Tool set to `ask`**: Claude Code prompts on every call with the reason `Your organization requires approval for this tool`. The prompt appears even in `acceptEdits`, `auto`, and `bypassPermissions` [permission modes](/en/permissions#permission-modes), and never offers an option to remember your choice. [Allow rules](/en/permissions) that match the tool don't skip the prompt either. In `dontAsk` mode, which never prompts, Claude Code denies the call instead.
+* **Tool set to `blocked`**: Claude Code filters the tool out before Claude sees it, so it never appears in the tool list.
+
+Enforcing these controls requires Claude Code v2.1.129 or later. Earlier versions ignore the settings and apply the standard permission flow.
 
 ### Disable claude.ai connectors
 
