@@ -196,7 +196,7 @@ If an HTTP or SSE server disconnects mid-session, Claude Code automatically reco
 
 The same backoff applies when an HTTP or SSE server fails its initial connection at startup. As of v2.1.121, Claude Code retries the initial connection up to three times on transient errors such as a 5xx response, a connection refused, or a timeout, then marks the server as failed if it still can't connect. Authentication and not-found errors are not retried because they require a configuration change to resolve.
 
-When a configured server fails to connect, Claude Code tells Claude which server failed and its connection error, including in `ToolSearch` results that find no matching tool, so Claude reports the connection failure in its response. Requires [tool search](#scale-with-mcp-tool-search), which is enabled by default. In configurations without tool search, such as a custom `ANTHROPIC_BASE_URL`, `ENABLE_TOOL_SEARCH=false`, or a Haiku model, and on Amazon Bedrock, Google Cloud's Agent Platform, and Microsoft Foundry, Claude Code doesn't report failed server connections to Claude. Before v2.1.205, Claude Code didn't pass connection errors to Claude, and Claude could respond as if the failed server's tools were never configured.
+When a configured server fails to connect, Claude Code tells Claude which server failed and its connection error, including in `ToolSearch` results that find no matching tool, so Claude reports the connection failure in its response. Requires [tool search](#scale-with-mcp-tool-search), which is enabled by default. In configurations without tool search, such as a custom `ANTHROPIC_BASE_URL`, `ENABLE_TOOL_SEARCH=false`, or a model that doesn't support tool search, and on Amazon Bedrock, Google Cloud's Agent Platform, and Microsoft Foundry, Claude Code doesn't report failed server connections to Claude. Before v2.1.205, Claude Code didn't pass connection errors to Claude, and Claude could respond as if the failed server's tools were never configured.
 
 As of v2.1.191, the capability discovery requests that run after a successful connection, such as `tools/list`, `prompts/list`, and `resources/list`, also retry transient network and server errors up to three times with short backoff. Authentication errors, 4xx responses, and request timeouts are not retried.
 
@@ -802,8 +802,8 @@ If you've already configured MCP servers in Claude Desktop, you can import them:
 <Steps>
   <Step title="Import servers from Claude Desktop">
     ```bash theme={null}
-    # Basic syntax 
-    claude mcp add-from-claude-desktop 
+    # Basic syntax
+    claude mcp add-from-claude-desktop
     ```
   </Step>
 
@@ -813,7 +813,7 @@ If you've already configured MCP servers in Claude Desktop, you can import them:
 
   <Step title="Verify the servers were imported">
     ```bash theme={null}
-    claude mcp list 
+    claude mcp list
     ```
   </Step>
 </Steps>
@@ -1121,7 +1121,7 @@ Tool search is enabled by default: MCP tools are deferred and discovered on dema
 
 Setting [`CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`](/en/env-vars) keeps tool search off, and `ENABLE_TOOL_SEARCH` can't override it. The variable strips the beta header that `defer_loading` tool definitions and `tool_reference` content blocks require.
 
-Tool search requires a model that supports `tool_reference` blocks. Haiku models don't support it. On Google Cloud's Agent Platform, tool search is supported for Claude Sonnet 4.5 and later and Claude Opus 4.5 and later.
+Tool search requires a model that supports `tool_reference` blocks: Claude Sonnet 4.5, Claude Haiku 4.5, Claude Opus 4.5, and later models. See [model compatibility in the API docs](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool#model-compatibility) for the current list. On Google Cloud's Agent Platform, tool search is supported for Claude Sonnet 4.5 and later and Claude Opus 4.5 and later.
 
 Control tool search behavior with the `ENABLE_TOOL_SEARCH` environment variable:
 
