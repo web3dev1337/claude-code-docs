@@ -280,8 +280,8 @@
     "checkpointing.md": {
       "original_url": "https://code.claude.com/docs/en/checkpointing",
       "original_md_url": "https://code.claude.com/docs/en/checkpointing.md",
-      "hash": "7a7dcaf42bd1bd6b92c271a7a1ec7235d253e3c2566bfb69ab63f7c0733a3bc7",
-      "last_updated": "2026-07-14T21:24:30.210904"
+      "hash": "84cbd6922affeee76ec0d570a0f4ba6a96d83f83f363f864981aa3404105d6b6",
+      "last_updated": "2026-07-17T04:04:37.566710"
     },
     "chrome.md": {
       "original_url": "https://code.claude.com/docs/en/chrome",
@@ -454,8 +454,8 @@
     "env-vars.md": {
       "original_url": "https://code.claude.com/docs/en/env-vars",
       "original_md_url": "https://code.claude.com/docs/en/env-vars.md",
-      "hash": "8e2b1c4940e15b059103b2ea69ef95b02e259a232eecd30c0ca2e802b64c4a6b",
-      "last_updated": "2026-07-17T00:44:31.038062"
+      "hash": "4dea3590b634abe40ae99f58043296a0472d8f83f1b3ae8e9a2f7a375158b06f",
+      "last_updated": "2026-07-17T04:05:00.181667"
     },
     "errors.md": {
       "original_url": "https://code.claude.com/docs/en/errors",
@@ -484,8 +484,8 @@
     "fullscreen.md": {
       "original_url": "https://code.claude.com/docs/en/fullscreen",
       "original_md_url": "https://code.claude.com/docs/en/fullscreen.md",
-      "hash": "be99ae5bde65b4f4a73a3e638d194fe636a6f9c1a0de23cdd948d3bc040faff8",
-      "last_updated": "2026-07-15T21:25:16.244778"
+      "hash": "e2a3d9119c61e58c91574ae096370297550caeca27854ffbe15770769b7206c3",
+      "last_updated": "2026-07-17T04:05:03.568058"
     },
     "gateways.md": {
       "original_url": "https://code.claude.com/docs/en/gateways",
@@ -556,8 +556,8 @@
     "interactive-mode.md": {
       "original_url": "https://code.claude.com/docs/en/interactive-mode",
       "original_md_url": "https://code.claude.com/docs/en/interactive-mode.md",
-      "hash": "028bd989bdaaf2dc87cbe231137ecc6be8aa84c3f8f8947e5ad3b69bde13d96d",
-      "last_updated": "2026-07-16T21:26:29.909371"
+      "hash": "fb446e80b0544edcd0ba1854669ee6786db3712f7a128143b0705dc5ba175c8a",
+      "last_updated": "2026-07-17T04:05:16.878213"
     },
     "jetbrains.md": {
       "original_url": "https://code.claude.com/docs/en/jetbrains",
@@ -568,8 +568,8 @@
     "keybindings.md": {
       "original_url": "https://code.claude.com/docs/en/keybindings",
       "original_md_url": "https://code.claude.com/docs/en/keybindings.md",
-      "hash": "428eb951f52a38f4ce4fb1a3c7876a665ecdcda463bd40b616293446d6e00f8a",
-      "last_updated": "2026-07-16T21:26:32.098880"
+      "hash": "d450c6c3b1f253d4acdb42c833bc3ef0aceee7e46fd1437a8c7f7b7fe455085e",
+      "last_updated": "2026-07-17T04:05:18.988376"
     },
     "large-codebases.md": {
       "original_url": "https://code.claude.com/docs/en/large-codebases",
@@ -1011,8 +1011,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-17T00:45:54.828563",
-    "fetch_duration_seconds": 156.178929,
+    "last_fetch_completed": "2026-07-17T04:06:34.903751",
+    "fetch_duration_seconds": 178.282801,
     "total_pages_discovered": 168,
     "pages_fetched_successfully": 169,
     "pages_failed": 0,
@@ -1022,7 +1022,7 @@
     "total_files": 168,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-07-17T00:45:54.828583",
+  "last_updated": "2026-07-17T04:06:34.903785",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
