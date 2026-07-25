@@ -718,8 +718,8 @@
     "plugin-marketplaces.md": {
       "original_url": "https://code.claude.com/docs/en/plugin-marketplaces",
       "original_md_url": "https://code.claude.com/docs/en/plugin-marketplaces.md",
-      "hash": "b26587f202719e55188d55f099b17adad7a64a046bf838a7843627aa72e4129e",
-      "last_updated": "2026-07-21T18:36:25.156452"
+      "hash": "ba170944ebfaffed2546f18950d01ac207819c29e6bd58ea82a07a3cb2752209",
+      "last_updated": "2026-07-25T21:22:40.093300"
     },
     "plugin-relevance.md": {
       "original_url": "https://code.claude.com/docs/en/plugin-relevance",
@@ -1035,8 +1035,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-07-25T18:28:41.835015",
-    "fetch_duration_seconds": 369.25108,
+    "last_fetch_completed": "2026-07-25T21:23:31.044201",
+    "fetch_duration_seconds": 180.056585,
     "total_pages_discovered": 172,
     "pages_fetched_successfully": 173,
     "pages_failed": 0,
@@ -1046,7 +1046,7 @@
     "total_files": 172,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-07-25T18:28:41.835050",
+  "last_updated": "2026-07-25T21:23:31.044234",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
