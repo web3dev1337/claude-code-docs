@@ -183,7 +183,7 @@ A few keys are read once at session start and apply on the next restart instead:
 
 ### Invalid entries in managed settings
 
-Managed settings parse tolerantly. When a managed configuration contains an entry that fails schema validation, Claude Code strips that entry, records a warning, and enforces every remaining valid policy. A single typo cannot disable the rest of your organization's policy. Run [`/doctor`](/docs/en/debug-your-config#check-resolved-settings) to list stripped entries with their source file and field.
+Managed settings parse tolerantly. When a managed configuration contains an entry that fails schema validation, Claude Code strips that entry, records a warning, and enforces every remaining valid policy. A single typo cannot disable the rest of your organization's policy. Run [`/doctor`](/docs/en/commands#all-commands) to list stripped entries with their source file and field.
 
 This behavior is consistent across all three delivery mechanisms: [server-managed settings](/docs/en/server-managed-settings), plist and registry policies deployed through MDM, and `managed-settings.json` files. Requires Claude Code v2.1.169 or later.
 
