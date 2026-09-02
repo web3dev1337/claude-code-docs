@@ -359,7 +359,7 @@ The snapshot differs from what a live `query()` session applies:
 
 * **`policyHelper`**: `resolveSettings()` reads MDM sources, including macOS plist and Windows HKLM/HKCU, but doesn't execute the admin-configured `policyHelper` subprocess.
 * **Server-managed settings**: `resolveSettings()` doesn't fetch [server-managed settings](/docs/en/server-managed-settings#fetch-and-caching-behavior). Pass them as `options.serverManagedSettings` to include them.
-* **`defaultMode`**: the snapshot returns `permissions.defaultMode` as-is from every tier. A live session [ignores `defaultMode: 'auto'` from project and local settings](/docs/en/permission-modes#eliminate-prompts-with-auto-mode), so an `auto` from those tiers appears in the snapshot even though a session would ignore it.
+* **`defaultMode`**: the snapshot returns `permissions.defaultMode` as-is from every tier, so it can include the `'auto'` and `'bypassPermissions'` values from project and local settings, which [a live session ignores](/docs/en/permission-modes#which-mode-a-session-starts-in).
 
 ```typescript theme={null}
 function resolveSettings(
