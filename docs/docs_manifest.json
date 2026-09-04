@@ -1021,12 +1021,6 @@
       "hash": "282687bbdbe4b964dc44ecfe2dc4a5e1e05603fc16309b9c51e520a25e6d2b39",
       "last_updated": "2026-09-04T00:42:31.541186"
     },
-    "whats-new__2026-w16.md": {
-      "original_url": "https://code.claude.com/docs/en/whats-new/2026-w16",
-      "original_md_url": "https://code.claude.com/docs/en/whats-new/2026-w16.md",
-      "hash": "cef88008fa8788cc06714b7bfe784cb9a237e0f78a7f25fd2a2a98e8ef0c9704",
-      "last_updated": "2026-09-04T00:42:32.926232"
-    },
     "whats-new__2026-w17.md": {
       "original_url": "https://code.claude.com/docs/en/whats-new/2026-w17",
       "original_md_url": "https://code.claude.com/docs/en/whats-new/2026-w17.md",
@@ -1149,18 +1143,20 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-09-04T09:20:18.464629",
-    "fetch_duration_seconds": 206.79839,
+    "last_fetch_completed": "2026-09-04T12:29:20.756906",
+    "fetch_duration_seconds": 375.42492,
     "total_pages_discovered": 191,
-    "pages_fetched_successfully": 192,
-    "pages_failed": 0,
-    "failed_pages": [],
+    "pages_fetched_successfully": 191,
+    "pages_failed": 1,
+    "failed_pages": [
+      "/docs/en/whats-new/2026-w16"
+    ],
     "sitemap_url": "https://code.claude.com/docs/sitemap.xml",
     "base_url": "https://code.claude.com",
-    "total_files": 191,
+    "total_files": 190,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-09-04T09:20:18.464661",
+  "last_updated": "2026-09-04T12:29:20.756926",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
