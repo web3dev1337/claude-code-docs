@@ -502,8 +502,8 @@
     "env-vars.md": {
       "original_url": "https://code.claude.com/docs/en/env-vars",
       "original_md_url": "https://code.claude.com/docs/en/env-vars.md",
-      "hash": "335b79deea98d5accfbcb056ef907ba8edde673b931c0dfa13b5e1bd82b7d12f",
-      "last_updated": "2026-09-16T00:42:26.319026"
+      "hash": "06b262f222f968ea6beda8c57f37e7a44d918845c07bbea3ee69ef3806d02fa8",
+      "last_updated": "2026-09-16T06:28:08.444429"
     },
     "errors.md": {
       "original_url": "https://code.claude.com/docs/en/errors",
@@ -1179,8 +1179,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-09-16T03:20:50.939090",
-    "fetch_duration_seconds": 137.405199,
+    "last_fetch_completed": "2026-09-16T06:29:26.481890",
+    "fetch_duration_seconds": 137.101135,
     "total_pages_discovered": 196,
     "pages_fetched_successfully": 197,
     "pages_failed": 0,
@@ -1190,7 +1190,7 @@
     "total_files": 196,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-09-16T03:20:50.939121",
+  "last_updated": "2026-09-16T06:29:26.481927",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
