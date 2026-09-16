@@ -321,7 +321,7 @@ The [`/code-review` command](/docs/en/commands) reviews a diff in your terminal 
   </Step>
 </Steps>
 
-Claude reports the findings as text in the reply in both of these runs, even when a host application requests the findings list described below:
+Claude reports the findings as text in the reply in both of these runs, even when a host application requests a findings list:
 
 * In a terminal session, where `/code-review` runs the review as a [forked subagent](/docs/en/skills#run-skills-in-a-subagent)
 * In a `-p` run with text or JSON output
