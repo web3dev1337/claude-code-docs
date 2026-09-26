@@ -175,6 +175,8 @@ Match the message you see to a section below.
 | `Couldn't verify your organization's policy for cloud sessions`                                                                                                                                                                                                      | [Command-line errors](#cloud-sessions-are-disabled-by-your-organizations-policy)                                              |
 | `Error: --json-schema is not a valid JSON Schema`                                                                                                                                                                                                                    | [Command-line errors](#command-line-errors)                                                                                   |
 | `Error: Invalid --agents configuration:`                                                                                                                                                                                                                             | [Command-line errors](#invalid-agents-configuration)                                                                          |
+| `Error: --agents takes a JSON object, or a file path only with --print (-p)`                                                                                                                                                                                         | [Command-line errors](#invalid-agents-configuration)                                                                          |
+| `Error: --agents file not found`                                                                                                                                                                                                                                     | [Command-line errors](#invalid-agents-configuration)                                                                          |
 | `Error: Settings file exceeds the 2MiB limit`                                                                                                                                                                                                                        | [Command-line errors](#settings-file-exceeds-the-2mib-limit)                                                                  |
 | `The current directory no longer exists (it was deleted or moved)` / `Can't read the current directory`                                                                                                                                                              | [Command-line errors](#the-current-directory-no-longer-exists)                                                                |
 | `Temp directory <dir> ... Refusing to use it` / `ENOSPC: no space left on device, mkdir '<dir>'`                                                                                                                                                                     | [Command-line errors](#temp-directory-refused-or-cannot-be-created)                                                           |
@@ -2444,7 +2446,7 @@ This message requires Claude Code v2.1.198 or later. You combined `--bg` with `-
   Invalid --agents configuration
 </h3>
 
-The value you passed to `--agents` is invalid, so `claude` exits with code 1 instead of starting the session. When you pass `--safe-mode`, `--resume`, or `--continue`, or set [`CLAUDE_CODE_SAFE_MODE`](/docs/en/env-vars#variables), Claude Code doesn't check the value and starts the session. Before v2.1.242, Claude Code started the session anyway and left out the definitions it couldn't load.
+The value you passed to `--agents` is invalid, so `claude` exits with code 1 instead of starting the session. When you pass `--safe-mode` or set [`CLAUDE_CODE_SAFE_MODE`](/docs/en/env-vars#variables), Claude Code ignores `--agents` entirely. With `--resume` or `--continue`, an inline JSON value isn't checked and the session starts; a value read from a file is checked on every launch. Before v2.1.242, Claude Code started the session anyway and left out the definitions it couldn't load.
 
 ```text theme={null}
 Error: Invalid --agents configuration:
@@ -2453,11 +2455,16 @@ Error: Invalid --agents configuration:
 
 What follows the first line depends on how the value failed. Claude Code runs these checks in order and stops at the first one that fails. If your value has two kinds of problem, you see the second only after you fix the first:
 
-1. When the value doesn't parse as JSON, Claude Code prints one `invalid JSON:` line carrying the JSON parser's own message
+1. When the value begins with `{` but doesn't parse as JSON, or the contents of an `--agents` file don't parse, Claude Code prints one `invalid JSON:` line carrying the JSON parser's own message
 2. When it parses but an agent definition doesn't match the schema for [CLI-defined subagents](/docs/en/sub-agents#choose-the-subagent-scope), Claude Code prints one line per problem
 3. When an agent name starts with `-`, Claude Code prints `<name>: agent names must not start with '-'`
 
 When there are more than 20 problem lines, Claude Code prints the first 20 and replaces the rest with `…and N more`.
+
+With `--print`, `--agents` also accepts [the path to a JSON file](/docs/en/sub-agents#choose-the-subagent-scope) in place of the inline object. Before v2.1.281, `--agents` accepted only inline JSON and treated a file path as invalid JSON. The file form has refusals of its own, printed in place of this message, including these:
+
+* **`Error: --agents takes a JSON object, or a file path only with --print (-p)`**: Claude Code read the value as a file path in an interactive session. Pass the definitions as inline JSON, or add `-p` to read them from a file.
+* **`Error: --agents file not found: <path>`**: no file exists at that path. A value that doesn't begin with `{` and isn't valid JSON is read as a path, so inline JSON that your shell mangled can fail this way too. Check the path or the quoting and run the command again.
 
 **What to do:**
 
