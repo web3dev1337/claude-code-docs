@@ -61,7 +61,7 @@ Earlier versions resolve these aliases to older models. For the version at which
 Aliases point to the recommended version for your provider and update over time. To pin to a specific version, use the full model name, for example `claude-opus-5-5`, or set the corresponding environment variable like `ANTHROPIC_DEFAULT_OPUS_MODEL`.
 
 <Note>
-  Sonnet 5.5 requires Claude Code v2.1.284 or later, and Opus 5.5 requires v2.1.280 or later. Run `claude update` to upgrade.
+  Sonnet 5.5 requires Claude Code v2.1.284 or later, and Opus 5.5 requires v2.1.280 or later. If a request for one of them from an older version fails, see [Claude Code does not support this model](/docs/en/errors#claude-code-does-not-support-this-model). Run `claude update` to upgrade.
 </Note>
 
 ### Work with Fable
@@ -225,7 +225,7 @@ When you pick a model with `/model` and your next session starts on something el
 
 ## Restrict model selection
 
-Enterprise administrators can use `availableModels` in [managed or policy settings](/docs/en/managed-settings) to restrict which models users can select. Entries match a model family such as `sonnet`, a version prefix such as `claude-sonnet-4-5`, or a full model ID such as `claude-sonnet-4-5-20250929`. A version prefix also matches later model IDs that extend it with another segment, so `claude-fable-5` permits both Fable 5 and Fable 5.1, while `claude-fable-5-1` permits Fable 5.1 only. To block a model the list permits, or to make each model ID entry permit only the version it names, see [Block specific models or versions](#block-specific-models-or-versions).
+Administrators can use `availableModels` in [managed or policy settings](/docs/en/managed-settings) to restrict which models users can select. Entries match a model family such as `sonnet`, a version prefix such as `claude-sonnet-4-5`, or a full model ID such as `claude-sonnet-4-5-20250929`. A version prefix also matches later model IDs that extend it with another segment, so `claude-fable-5` permits both Fable 5 and Fable 5.1, while `claude-fable-5-1` permits Fable 5.1 only. To block a model the list permits, or to make each model ID entry permit only the version it names, see [Block specific models or versions](#block-specific-models-or-versions).
 
 On platforms that embed Claude Code and set [`CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`](/docs/en/env-vars), the host's model configuration takes precedence over managed model settings, while a managed `availableModels` allowlist stays in force unless the host supplies its own; [Exceptions to managed settings precedence](/docs/en/settings#exceptions-to-managed-settings-precedence) says which keys and variables the host overrides.
 
@@ -685,9 +685,11 @@ Extended thinking is the reasoning Claude emits before responding. On models tha
 | Set the global default | Run `/config` and toggle thinking mode. Saved as `alwaysThinkingEnabled` in `~/.claude/settings.json` |
 | Disable through an environment variable | Set [`MAX_THINKING_TOKENS=0`](/docs/en/env-vars), which turns thinking off on the Anthropic API except on Opus 5.5, Sonnet 5.5, and Fable models. On [third-party providers](/docs/en/third-party-integrations), Claude Code omits the `thinking` parameter instead, and adaptive-reasoning models may still think. Other values apply only with a [fixed thinking budget](#adaptive-reasoning-and-fixed-thinking-budgets) |
 
-You can't turn thinking off on Opus 5.5, Sonnet 5.5, or the Fable models. The session toggle, `alwaysThinkingEnabled`, and `MAX_THINKING_TOKENS=0` have no effect there, and the model decides per step how much to think based on the effort level.
+You can't turn thinking off on Opus 5.5, Sonnet 5.5, or the Fable models. The session toggle and the `/config` row show `Thinking can't be turned off` for these models instead of offering the switch, and a saved `alwaysThinkingEnabled: false` or `MAX_THINKING_TOKENS=0` has no effect there. On these models, the model decides per step how much to think based on the effort level. The saved setting applies again when you switch to a model that accepts it.
 
 Claude Code collapses thinking output by default. Press `Ctrl+O` to toggle verbose mode and see the reasoning as gray italic text. Interactive sessions on the Anthropic API receive redacted thinking blocks by default, so set `showThinkingSummaries: true` in [settings](/docs/en/settings) if you want the full summaries available when you expand. You are charged for all thinking tokens generated, even when collapsed or redacted.
+
+<a id="extended-context-with-1m" />
 
 ### Extended context
 
