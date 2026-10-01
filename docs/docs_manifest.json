@@ -273,8 +273,8 @@
     "changelog.md": {
       "original_url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
       "original_raw_url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
-      "hash": "ab0e65df090ea022da4be09d81f6a6a452af975d95db32b424899563a5ef957d",
-      "last_updated": "2026-10-01T18:24:17.760032",
+      "hash": "3c253c1aa5a7eec0cb6d6ac0cf863aff96fb0ede8a109294001191304dc2257e",
+      "last_updated": "2026-10-01T21:16:46.462723",
       "source": "claude-code-repository"
     },
     "channels.md": {
@@ -850,8 +850,8 @@
     "plugins__mods__create.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/create",
       "original_md_url": "https://code.claude.com/docs/en/plugins/mods/create.md",
-      "hash": "77e0dfcafccb81da1017f10352061d1902c6a7d634fad7d8930a0794a78df5d8",
-      "last_updated": "2026-10-01T18:23:24.003176"
+      "hash": "671df1615b51d35a363b081dfce266ab61bba0b5bf61bbef7c2e39bf51565149",
+      "last_updated": "2026-10-01T21:15:53.827064"
     },
     "plugins__mods__events.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/events",
@@ -862,20 +862,20 @@
     "plugins__mods__interface.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/interface",
       "original_md_url": "https://code.claude.com/docs/en/plugins/mods/interface.md",
-      "hash": "b8d8b72158c103e728d1c9ed47175dd54b4b101f2cd616a68202728bec0b09c8",
-      "last_updated": "2026-10-01T18:23:25.410908"
+      "hash": "50ad72db8e42a940f27503486b3ee22fefb88af0dbb8bd2b505b9a62d341e1d1",
+      "last_updated": "2026-10-01T21:15:54.950581"
     },
     "plugins__mods__overview.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/overview",
       "original_md_url": "https://code.claude.com/docs/en/plugins/mods/overview.md",
-      "hash": "300c7f3f34a9f74cd859d247dc1bb9ce3eb3660fade612e66ef7a332dbf4236a",
-      "last_updated": "2026-10-01T18:23:26.042653"
+      "hash": "0b36513d18bafc63ff1eec8437feec2140a02095e726e442af8074ac19d0cf01",
+      "last_updated": "2026-10-01T21:15:55.505225"
     },
     "plugins__mods__reference.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/reference",
       "original_md_url": "https://code.claude.com/docs/en/plugins/mods/reference.md",
-      "hash": "9f3e0fd3803098f1a321886e983bc65e74a726a968767ccb8f171960efeae4b2",
-      "last_updated": "2026-10-01T18:23:26.676064"
+      "hash": "4ab90d10d63c9bf85efebb7ce7fd01fcf334943089585b5f534ba4fed90c4688",
+      "last_updated": "2026-10-01T21:15:56.068434"
     },
     "plugins__mods__test.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/test",
@@ -1102,8 +1102,8 @@
     "tools-reference.md": {
       "original_url": "https://code.claude.com/docs/en/tools-reference",
       "original_md_url": "https://code.claude.com/docs/en/tools-reference.md",
-      "hash": "d6c333e5c338b5f9943ef724f016f068e649bb118d152e820f30fbe226f787ab",
-      "last_updated": "2026-10-01T06:30:45.160371"
+      "hash": "9f69659f6241488e44014e1d75a2570b272e2f621bf6678669cc725cb7b9ee5e",
+      "last_updated": "2026-10-01T21:16:21.901023"
     },
     "troubleshoot-install.md": {
       "original_url": "https://code.claude.com/docs/en/troubleshoot-install",
@@ -1311,8 +1311,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-01T18:24:17.760089",
-    "fetch_duration_seconds": 154.178627,
+    "last_fetch_completed": "2026-10-01T21:16:46.462775",
+    "fetch_duration_seconds": 144.471751,
     "total_pages_discovered": 218,
     "pages_fetched_successfully": 219,
     "pages_failed": 0,
@@ -1322,7 +1322,7 @@
     "total_files": 218,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-01T18:24:17.760109",
+  "last_updated": "2026-10-01T21:16:46.462794",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
