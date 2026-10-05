@@ -45,8 +45,8 @@
     "agent-sdk__custom-tools.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/custom-tools",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/custom-tools.md",
-      "hash": "d8c1058305e301bfb32463fc14889830d6215eff2f2358ae8b9f24374799dda6",
-      "last_updated": "2026-09-29T00:45:15.714915"
+      "hash": "bb2584824a9b622056a4dff8a8abf98b34cc40cce99f0ac94a38986a4684689c",
+      "last_updated": "2026-10-05T21:17:22.138410"
     },
     "agent-sdk__examples.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/examples",
@@ -117,8 +117,8 @@
     "agent-sdk__python.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/python",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/python.md",
-      "hash": "47c6a87b526520b4b5f9eb8795a09cae4430b33e2fed78a23501137e9a18cf86",
-      "last_updated": "2026-10-05T03:25:30.295520"
+      "hash": "82586d48ca413b7451852ca548917a9ad066973f26c6186e0b8468d4be9c0e1e",
+      "last_updated": "2026-10-05T21:17:29.022856"
     },
     "agent-sdk__quickstart.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/quickstart",
@@ -195,8 +195,8 @@
     "agent-sdk__typescript.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/typescript",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/typescript.md",
-      "hash": "d57286dba2d1bb9aefd328fa34145474870efa4817fab8dca69884c1fcb2aa28",
-      "last_updated": "2026-10-05T03:25:39.408078"
+      "hash": "8f6eb83c882ae2a2430bc705cfadd1ca94f3d7e4ee3a1afb7f1be1475e242c10",
+      "last_updated": "2026-10-05T21:17:36.687613"
     },
     "agent-sdk__typescript-v2-preview.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/typescript-v2-preview",
@@ -496,8 +496,8 @@
     "env-vars.md": {
       "original_url": "https://code.claude.com/docs/en/env-vars",
       "original_md_url": "https://code.claude.com/docs/en/env-vars.md",
-      "hash": "016816acaeab3981c1bebd7e3ac884a4fc2ebd9d9bbb65fd12748d4e0bfbab2d",
-      "last_updated": "2026-10-05T03:26:13.974151"
+      "hash": "d9fd3c2c1ce0d753f63e9b4bcf67db65a9471387827cf8b49468f41f74dc8e58",
+      "last_updated": "2026-10-05T21:18:05.609885"
     },
     "errors.md": {
       "original_url": "https://code.claude.com/docs/en/errors",
@@ -1323,8 +1323,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-05T18:23:16.904031",
-    "fetch_duration_seconds": 128.918405,
+    "last_fetch_completed": "2026-10-05T21:19:24.393582",
+    "fetch_duration_seconds": 127.230373,
     "total_pages_discovered": 220,
     "pages_fetched_successfully": 221,
     "pages_failed": 0,
@@ -1334,7 +1334,7 @@
     "total_files": 220,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-05T18:23:16.904060",
+  "last_updated": "2026-10-05T21:19:24.393609",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
