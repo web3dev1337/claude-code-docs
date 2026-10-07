@@ -1048,8 +1048,8 @@
     "sessions.md": {
       "original_url": "https://code.claude.com/docs/en/sessions",
       "original_md_url": "https://code.claude.com/docs/en/sessions.md",
-      "hash": "550ca022a3511cc432c93ec518d967d5493ad763a76edcaf180151f89e5b173b",
-      "last_updated": "2026-10-06T21:16:27.288257"
+      "hash": "73ee8dbe27ad399e763ad8c32e5a1657a2c12e0cbbf9a64d45db26be0e738f26",
+      "last_updated": "2026-10-07T03:23:36.730564"
     },
     "settings.md": {
       "original_url": "https://code.claude.com/docs/en/settings",
@@ -1323,8 +1323,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-07T00:49:04.312336",
-    "fetch_duration_seconds": 135.163369,
+    "last_fetch_completed": "2026-10-07T03:24:07.844175",
+    "fetch_duration_seconds": 152.373448,
     "total_pages_discovered": 220,
     "pages_fetched_successfully": 221,
     "pages_failed": 0,
@@ -1334,7 +1334,7 @@
     "total_files": 220,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-07T00:49:04.312365",
+  "last_updated": "2026-10-07T03:24:07.844208",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
