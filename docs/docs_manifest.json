@@ -316,8 +316,8 @@
     "claude-apps-gateway-deploy.md": {
       "original_url": "https://code.claude.com/docs/en/claude-apps-gateway-deploy",
       "original_md_url": "https://code.claude.com/docs/en/claude-apps-gateway-deploy.md",
-      "hash": "a62f7ee0cae6fc2e5b499967f34f43adb3132f28249d4b7d1acd7bd55c7354c7",
-      "last_updated": "2026-10-08T09:20:40.548397"
+      "hash": "93d9ce4f23e5e7a20b9c0bf253d5f891e341d77d7d185ece7e3bca0cee5a2b37",
+      "last_updated": "2026-10-08T12:25:43.165058"
     },
     "claude-apps-gateway-on-aws.md": {
       "original_url": "https://code.claude.com/docs/en/claude-apps-gateway-on-aws",
@@ -1323,8 +1323,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-08T09:22:38.176181",
-    "fetch_duration_seconds": 156.266742,
+    "last_fetch_completed": "2026-10-08T12:27:22.677087",
+    "fetch_duration_seconds": 132.597484,
     "total_pages_discovered": 220,
     "pages_fetched_successfully": 221,
     "pages_failed": 0,
@@ -1334,7 +1334,7 @@
     "total_files": 220,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-08T09:22:38.176233",
+  "last_updated": "2026-10-08T12:27:22.677121",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
