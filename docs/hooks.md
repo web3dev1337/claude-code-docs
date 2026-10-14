@@ -3224,7 +3224,7 @@ The matcher value indicates whether compaction was triggered manually or automat
 | Matcher | When it fires |
 | :- | :- |
 | `manual` | `/compact` |
-| `auto` | Auto-compact when the conversation reaches the [auto-compact window](/docs/en/model-config#set-the-auto-compact-window) |
+| `auto` | Auto-compact when the conversation reaches the [auto-compact window](/docs/en/model-config#set-the-auto-compact-window), and [idle compaction](/docs/en/settings-reference#idlecompaction) |
 
 Exit with code 2 to block compaction. For a manual `/compact`, the stderr message is shown to the user. You can also block by returning JSON with `"decision": "block"`.
 
@@ -3256,7 +3256,7 @@ The same matcher values apply as for `PreCompact`:
 | Matcher | When it fires |
 | :- | :- |
 | `manual` | After `/compact` |
-| `auto` | After auto-compact when the conversation reaches the [auto-compact window](/docs/en/model-config#set-the-auto-compact-window) |
+| `auto` | After auto-compact when the conversation reaches the [auto-compact window](/docs/en/model-config#set-the-auto-compact-window), and after [idle compaction](/docs/en/settings-reference#idlecompaction) |
 
 #### PostCompact input
 
@@ -4037,7 +4037,7 @@ Print the JSON response alone on stdout or on one line of its own:
 * **Alone on stdout**: when the response is the only text on stdout, it can span several lines, such as pretty-printed `jq` output. Spanning several lines requires Claude Code v2.1.295 or later.
 * **On one line of its own**: an async hook can print other text to stdout when the response fits on one line by itself, for example with `jq -c`.
 
-Claude Code validates that JSON response against the same [output schema](#json-output) as synchronous hooks, and drops any field whose value has the wrong type, such as a `systemMessage` that isn't a string, instead of delivering it. Run with `--debug` to see a warning naming each dropped field. Before v2.1.202, malformed JSON output from an async hook could crash the session, and the crash recurred each time the session was resumed.
+Claude Code validates that JSON response against the same [output schema](#json-output) as synchronous hooks, and drops any field whose value has the wrong type, such as a `systemMessage` that isn't a string, instead of delivering it. Run with `--debug` to see a warning naming each dropped field.
 
 Async hook completion notifications are suppressed by default. To see them, enable verbose mode with `Ctrl+O` or start Claude Code with `--verbose`.
 
