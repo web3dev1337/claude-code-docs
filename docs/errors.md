@@ -152,6 +152,7 @@ Match the message you see to a section below.
 | `Request too large for the API's 32MB request limit` | [Request errors](#request-too-large) |
 | `Image was too large` | [Request errors](#image-was-too-large) |
 | `Unable to resize image` | [Request errors](#unable-to-resize-image) |
+| `Request rejected as unprocessable by the model` | [Request errors](#request-rejected-as-unprocessable-by-the-model) |
 | `PDF too large` / `PDF is password protected` / `pdftoppm is not installed` | [Request errors](#pdf-errors) |
 | `Extra inputs are not permitted` | [Request errors](#extra-inputs-are-not-permitted) |
 | `API Error: 400 ... tools.N.custom.input_schema: JSON schema is invalid` / `Property keys should match pattern` | [Request errors](#tool-input-schema-is-invalid) |
@@ -263,6 +264,7 @@ Match the message you see to a section below.
 | `Output styles are saved to local settings (.claude/settings.local.json), which this session doesn't load` | [Command-line errors](#output-styles-are-saved-to-local-settings-which-this-session-doesnt-load) |
 | `/recap only runs when you ask for it yourself in this session` | [Command-line errors](#recap-only-runs-when-you-ask-for-it-yourself) |
 | `` `plugin eval` is currently in early access `` / `` `plugin eval` is currently unavailable `` | [Plugin errors](#plugin-eval-is-currently-in-early-access) |
+| `cannot be evaluated where sessions load it` | [Test plugins with evals](/docs/en/plugin-evals#cannot-be-evaluated-where-sessions-load-it) |
 | `Marketplace "<name>" is registered from an untrusted source` | [Plugin errors](#marketplace-is-registered-from-an-untrusted-source) |
 | `Claude Code refuses the marketplace name "<name>"` | [Plugin errors](#claude-code-refuses-the-marketplace-name) |
 | `Marketplace name impersonates an official Anthropic/Claude marketplace` | [Plugin errors](#claude-code-refuses-the-marketplace-name) |
@@ -2230,6 +2232,20 @@ Claude Code normally resizes large images automatically. These errors mean the i
 * If the message asks you to convert the image, convert it to PNG, JPEG, GIF, or WebP and attach it again. Claude Code can verify dimensions for these formats from the file header, without decoding the image.
 * If the message reports a dimension or size limit, resize or recompress the image below that limit before attaching.
 * If the message names a cause, such as a CMYK JPEG, an animated WebP, or a possibly damaged file, re-save the image in the format the message suggests and attach it again.
+
+### Request rejected as unprocessable by the model
+
+The API refused the request as one the model can't process. The message is the API's own.
+
+```text theme={null}
+API Error: 400 Request rejected as unprocessable by the model (too many or oversized images, or unsupported parameters)
+```
+
+Claude Code can remove the oldest images and documents from a refused request and send it again. Before v2.1.290, Claude Code didn't remove images on this refusal, so a long session that accumulated hundreds of them could fail with this error on every turn.
+
+**What to do:**
+
+* If the message keeps appearing in a conversation with images or documents, remove them yourself. Press Esc twice to step back past the turns that added them, or run `/clear` to start fresh.
 
 ### PDF errors
 
