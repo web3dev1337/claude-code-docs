@@ -910,14 +910,14 @@
     "plugins__mods__gallery.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/gallery",
       "original_md_url": "https://code.claude.com/docs/en/plugins/mods/gallery.md",
-      "hash": "939381e8a1b63a4a0d4b03e7a80a0e73acc35c622f552faa663db18ffbce41fe",
-      "last_updated": "2026-10-15T18:20:11.936694"
+      "hash": "c62a9fdf24e334a0e97b8d1a56792911786e6614cf945669f0ad981d03337715",
+      "last_updated": "2026-10-17T00:40:25.016745"
     },
     "plugins__mods__interface.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/interface",
       "original_md_url": "https://code.claude.com/docs/en/plugins/mods/interface.md",
-      "hash": "0847364fb41a7c1b178400296bff7f5afd8aab021230730084e9e0e10e85b261",
-      "last_updated": "2026-10-15T18:20:12.634392"
+      "hash": "3799ccf1061b6f1493a846634eb1f2fd75328232633f5e786d107837cd11c2ad",
+      "last_updated": "2026-10-17T00:40:25.637138"
     },
     "plugins__mods__overview.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/overview",
@@ -928,8 +928,8 @@
     "plugins__mods__reference.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/reference",
       "original_md_url": "https://code.claude.com/docs/en/plugins/mods/reference.md",
-      "hash": "e466c9b5ac7e5ecde1b5c5ac4097af98493d47f83f38a0534da56138058dd12b",
-      "last_updated": "2026-10-15T18:20:14.046627"
+      "hash": "83787e396a7ca50eaf93ab28e31f760a33286fab86aa087592042eb059f35725",
+      "last_updated": "2026-10-17T00:40:26.903397"
     },
     "plugins__mods__test.md": {
       "original_url": "https://code.claude.com/docs/en/plugins/mods/test",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-16T21:14:58.107660",
-    "fetch_duration_seconds": 163.209229,
+    "last_fetch_completed": "2026-10-17T00:41:13.231507",
+    "fetch_duration_seconds": 147.345862,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-16T21:14:58.107695",
+  "last_updated": "2026-10-17T00:41:13.231538",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
