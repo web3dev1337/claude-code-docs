@@ -74,7 +74,7 @@ If you pass a global `claude` flag before `remote-control`, or a wrapper script 
 
 To sandbox the sessions the server starts, turn on [sandboxing](/docs/en/sandboxing) in a settings file.
 
-Claude Code checks Remote Control eligibility before printing help, so `claude remote-control --help` returns an error instead of this flag list when you aren't signed in with an eligible account.
+To print the `remote-control` flags in your terminal, run `claude remote-control --help`. Before v2.1.302, without an eligible sign-in the command returned one of the errors under [Troubleshooting](#troubleshooting) instead.
 
 **Interactive session**
 
@@ -186,7 +186,7 @@ Remote Control only activates when you explicitly run `claude remote-control`, `
 
 * **`true`**: connect automatically when an interactive session starts.
 * **`false`**: turn auto-connect off, though a `true` from [managed settings](/docs/en/managed-settings) outranks it, because Claude Code saves the choice to your user settings. A `false` in project or local settings (`.claude/settings.json`, `.claude/settings.local.json`) turns auto-connect off even over a managed `true`.
-* **`default`**: clear your choice and follow your organization's admin default if one is set, otherwise Claude Code's current default.
+* **`default`**: clear your choice and follow your organization's admin default if one is set, otherwise Claude Code's current default. If you set `DISABLE_TELEMETRY` or `DO_NOT_TRACK`, see [Auto-connect with `DISABLE_TELEMETRY` or `DO_NOT_TRACK` set](#auto-connect-with-disable-telemetry-or-do-not-track).
 
 The VS Code extension and the Desktop app also have an auto-connect toggle:
 
@@ -198,6 +198,15 @@ To turn auto-connect on from a settings file instead, set [`remoteControlAtStart
 Auto-connect signs in with your own claude.ai account, so a session it starts appears only in your own account's Claude apps and grants no one else access.
 
 With this setting on, each interactive Claude Code process registers one remote session. If you run multiple instances, each one gets its own remote session. To run multiple concurrent sessions from a single process, use [server mode](#start-a-remote-control-session) instead.
+
+#### Auto-connect with `DISABLE_TELEMETRY` or `DO_NOT_TRACK` set
+
+With only `DISABLE_TELEMETRY` or `DO_NOT_TRACK` set, your sessions don't auto-connect through your organization's admin default or Claude Code's own default. If something else makes Remote Control unavailable for you, such as `DISABLE_GROWTHBOOK` or an LLM gateway, start with [Requirements](#requirements) instead.
+
+Turning auto-connect on with only `DISABLE_TELEMETRY` or `DO_NOT_TRACK` set requires Claude Code v2.1.283 or later. To auto-connect, check whether your organization requires [Trusted Devices](#trusted-devices):
+
+* **Not required**: set **Enable Remote Control for all sessions** to `true` in `/config`.
+* **Required**: Remote Control isn't available while `DISABLE_TELEMETRY` or `DO_NOT_TRACK` is set. Unset whichever of the two variables you set. If your sessions still don't auto-connect, set **Enable Remote Control for all sessions** to `true` in `/config`.
 
 ### Resume sessions after stopping the server
 
