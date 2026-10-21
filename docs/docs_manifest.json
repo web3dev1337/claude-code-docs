@@ -544,8 +544,8 @@
     "errors.md": {
       "original_url": "https://code.claude.com/docs/en/errors",
       "original_md_url": "https://code.claude.com/docs/en/errors.md",
-      "hash": "4ed35c960c1609f4c5dd43cd31c62b458e407db133f093e29b0f0222b2eb1212",
-      "last_updated": "2026-10-21T03:19:30.715209"
+      "hash": "696b38e3fe064d1052230c6931d0866b2ea6a1d5dba2c9cb7e37ff2028f60f63",
+      "last_updated": "2026-10-21T06:27:02.629031"
     },
     "fast-mode.md": {
       "original_url": "https://code.claude.com/docs/en/fast-mode",
@@ -778,14 +778,14 @@
     "permission-modes.md": {
       "original_url": "https://code.claude.com/docs/en/permission-modes",
       "original_md_url": "https://code.claude.com/docs/en/permission-modes.md",
-      "hash": "43b30c78df2c4f160e8d7484febddabc57280da72d5b3f04ffa329c9057d14ee",
-      "last_updated": "2026-10-21T03:19:58.194442"
+      "hash": "1ea6ab4b1df7b72ac10edf7bc5f641efab6d3c6e42b2b010f7a4b2a4e943d75a",
+      "last_updated": "2026-10-21T06:27:28.787544"
     },
     "permissions.md": {
       "original_url": "https://code.claude.com/docs/en/permissions",
       "original_md_url": "https://code.claude.com/docs/en/permissions.md",
-      "hash": "21f7bc394d7b01224dc08ca7b2f94a60d54faf78b9e355f7d8f8acfccebdd3cd",
-      "last_updated": "2026-10-21T03:19:58.899984"
+      "hash": "b9e93331a3fb9f14cb834300106cc8fc9bb4cd799b0426d20cf0d3707488f724",
+      "last_updated": "2026-10-21T06:27:29.614464"
     },
     "platforms.md": {
       "original_url": "https://code.claude.com/docs/en/platforms",
@@ -1018,8 +1018,8 @@
     "sandboxing.md": {
       "original_url": "https://code.claude.com/docs/en/sandboxing",
       "original_md_url": "https://code.claude.com/docs/en/sandboxing.md",
-      "hash": "f94e3282e03762ada3b2f8ec0d0e7a3e6fb83f4e2b68279f32954e7f4225d652",
-      "last_updated": "2026-10-21T00:40:56.641441"
+      "hash": "b77ce86ffbdb116b82c2a289d6edf1d5e2eb09953cb0f5e6eee1aaca0b1970ea",
+      "last_updated": "2026-10-21T06:27:55.966794"
     },
     "scheduled-tasks.md": {
       "original_url": "https://code.claude.com/docs/en/scheduled-tasks",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-21T03:21:06.450781",
-    "fetch_duration_seconds": 160.005907,
+    "last_fetch_completed": "2026-10-21T06:28:34.694254",
+    "fetch_duration_seconds": 154.802863,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-21T03:21:06.450795",
+  "last_updated": "2026-10-21T06:28:34.694282",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
