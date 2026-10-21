@@ -75,8 +75,8 @@
     "agent-sdk__mcp.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/mcp",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/mcp.md",
-      "hash": "517caf38b952359b02ec1fe26ba084693fb05625aead51e5d7b268fcd007e3a8",
-      "last_updated": "2026-10-21T03:18:36.274846"
+      "hash": "11ba3a216dd1f95c3a50ed0005b7bce60b0ea7eb49f0403bc99800eca16ba8fd",
+      "last_updated": "2026-10-21T09:16:29.420131"
     },
     "agent-sdk__migration-guide.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/migration-guide",
@@ -183,8 +183,8 @@
     "agent-sdk__tool-search.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/tool-search",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/tool-search.md",
-      "hash": "83e4458529cc65973d00b46afb56f6526243d2e37535cdff004ac33205d85519",
-      "last_updated": "2026-10-21T00:39:21.358983"
+      "hash": "b62a1bf88f85d7fa01a77ac73187167c6f011b8f403862f0ffc03259b0cdeff0",
+      "last_updated": "2026-10-21T09:16:40.797687"
     },
     "agent-sdk__troubleshooting.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/troubleshooting",
@@ -538,8 +538,8 @@
     "env-vars.md": {
       "original_url": "https://code.claude.com/docs/en/env-vars",
       "original_md_url": "https://code.claude.com/docs/en/env-vars.md",
-      "hash": "87372c54d6085f00015cd97825c7e3d154012ccdf4d23c13ae79b26a2149721d",
-      "last_updated": "2026-10-21T03:19:29.957092"
+      "hash": "6c0123f6d94a3024920a3c0874647f957374b37663c13973e51bf3683c2d1cd8",
+      "last_updated": "2026-10-21T09:17:17.737920"
     },
     "errors.md": {
       "original_url": "https://code.claude.com/docs/en/errors",
@@ -718,8 +718,8 @@
     "mcp.md": {
       "original_url": "https://code.claude.com/docs/en/mcp",
       "original_md_url": "https://code.claude.com/docs/en/mcp.md",
-      "hash": "835b28f2bdec4e7388f1caf8dd5a2b2c34ada3a474b7ee00f52bb44463f65106",
-      "last_updated": "2026-10-21T00:40:22.331470"
+      "hash": "8b24c6f03ee12b9a372022c08737a5796727be80183a5ea4357815e92fa18261",
+      "last_updated": "2026-10-21T09:17:40.127376"
     },
     "mcp-quickstart.md": {
       "original_url": "https://code.claude.com/docs/en/mcp-quickstart",
@@ -982,8 +982,8 @@
     "prompt-caching.md": {
       "original_url": "https://code.claude.com/docs/en/prompt-caching",
       "original_md_url": "https://code.claude.com/docs/en/prompt-caching.md",
-      "hash": "c4d97362bf727ee7a6dfa34d1ff9478c05b20075f4c043b77de10616aea106d8",
-      "last_updated": "2026-10-21T03:20:22.085571"
+      "hash": "714b52ebc13d5643807a82c4274c6641fab64f59e4979dd3d437c1f58ef282a3",
+      "last_updated": "2026-10-21T09:18:07.698571"
     },
     "prompt-library.md": {
       "original_url": "https://code.claude.com/docs/en/prompt-library",
@@ -1114,8 +1114,8 @@
     "setup.md": {
       "original_url": "https://code.claude.com/docs/en/setup",
       "original_md_url": "https://code.claude.com/docs/en/setup.md",
-      "hash": "dd6dce8da7f515ff0039bb3b4c6f5a4143cc0f74f363a741c5087328ae80a63c",
-      "last_updated": "2026-10-20T21:16:01.417307"
+      "hash": "bd8b966c47f7083371fc30c9dc821b776596f6d96509ee25859513ba6b802005",
+      "last_updated": "2026-10-21T09:18:21.464650"
     },
     "skills.md": {
       "original_url": "https://code.claude.com/docs/en/skills",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-21T06:28:34.694254",
-    "fetch_duration_seconds": 154.802863,
+    "last_fetch_completed": "2026-10-21T09:18:47.172827",
+    "fetch_duration_seconds": 146.900036,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-21T06:28:34.694282",
+  "last_updated": "2026-10-21T09:18:47.172853",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
