@@ -105,8 +105,8 @@
     "agent-sdk__permissions.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/permissions",
       "original_md_url": "https://code.claude.com/docs/en/agent-sdk/permissions.md",
-      "hash": "449ff08baac9cc1ea1371f7915cb057f193e3cd7ec3cc3706cd5f88d344b112e",
-      "last_updated": "2026-10-21T03:18:39.739388"
+      "hash": "9839f2f4de8d6ccfc8f681507bcf05d0e61a4268d6407fe084d991f797a5b973",
+      "last_updated": "2026-10-22T03:17:53.414660"
     },
     "agent-sdk__plugins.md": {
       "original_url": "https://code.claude.com/docs/en/agent-sdk/plugins",
@@ -261,8 +261,8 @@
     "auto-mode-config.md": {
       "original_url": "https://code.claude.com/docs/en/auto-mode-config",
       "original_md_url": "https://code.claude.com/docs/en/auto-mode-config.md",
-      "hash": "8e3538c437c2df7501ce2565fa8faaac1de47e5ba5f6af6c92459433ee8c2b72",
-      "last_updated": "2026-10-20T21:14:30.545507"
+      "hash": "67284cb8a9484c38ebed471a7ef9b18233ee625233cf160200d6dc883ff1aa3f",
+      "last_updated": "2026-10-22T03:18:08.313021"
     },
     "best-practices.md": {
       "original_url": "https://code.claude.com/docs/en/best-practices",
@@ -544,8 +544,8 @@
     "errors.md": {
       "original_url": "https://code.claude.com/docs/en/errors",
       "original_md_url": "https://code.claude.com/docs/en/errors.md",
-      "hash": "421f089c3e968f9550c3c1a80539efed7c51b528233c453717ae6c33a358fe48",
-      "last_updated": "2026-10-22T00:40:43.567814"
+      "hash": "37e9799a44678ea216d5c5cc4c6a39fb4029cf9323875de3464a2088bd32d990",
+      "last_updated": "2026-10-22T03:18:35.293516"
     },
     "fast-mode.md": {
       "original_url": "https://code.claude.com/docs/en/fast-mode",
@@ -778,8 +778,8 @@
     "permission-modes.md": {
       "original_url": "https://code.claude.com/docs/en/permission-modes",
       "original_md_url": "https://code.claude.com/docs/en/permission-modes.md",
-      "hash": "406560c3f19a3c27d9e5f92b2e14ae5edce350caf410272c24bd8ebdc38900f2",
-      "last_updated": "2026-10-21T21:14:18.547602"
+      "hash": "cc9d0c0ecb57d1db6e1dba2ce7f6f9d1c0e4335021129ef627ee0cd99f8c181e",
+      "last_updated": "2026-10-22T03:18:58.130180"
     },
     "permissions.md": {
       "original_url": "https://code.claude.com/docs/en/permissions",
@@ -1054,8 +1054,8 @@
     "self-hosted-environments-deploy.md": {
       "original_url": "https://code.claude.com/docs/en/self-hosted-environments-deploy",
       "original_md_url": "https://code.claude.com/docs/en/self-hosted-environments-deploy.md",
-      "hash": "93591cbfb8c1eda031f699f4faf3aeb0f2d9475c2e8f18f397d0797e56452542",
-      "last_updated": "2026-10-22T00:41:37.089296"
+      "hash": "58c61127447a386fcf05d41d2a38dffe38f7501fa5474fe5e4d90f80544dbb1e",
+      "last_updated": "2026-10-22T03:19:24.316782"
     },
     "self-hosted-environments-identity.md": {
       "original_url": "https://code.claude.com/docs/en/self-hosted-environments-identity",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-22T00:42:13.465645",
-    "fetch_duration_seconds": 154.789,
+    "last_fetch_completed": "2026-10-22T03:19:53.893745",
+    "fetch_duration_seconds": 131.160678,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-22T00:42:13.465666",
+  "last_updated": "2026-10-22T03:19:53.893771",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
