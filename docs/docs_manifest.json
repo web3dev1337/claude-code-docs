@@ -1186,8 +1186,8 @@
     "vs-code.md": {
       "original_url": "https://code.claude.com/docs/en/vs-code",
       "original_md_url": "https://code.claude.com/docs/en/vs-code.md",
-      "hash": "662a4fa3e5c76520530cc063d9c997d9d8fc5a5f1cdceb9382c0a8186433d3bc",
-      "last_updated": "2026-10-30T18:13:19.178591"
+      "hash": "958a5bcaacc76f4fa16a52c9ef0d5b70c057a8dc94cce0cf919c21a745697f1d",
+      "last_updated": "2026-10-30T21:09:22.482085"
     },
     "web-quickstart.md": {
       "original_url": "https://code.claude.com/docs/en/web-quickstart",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-30T18:13:35.173438",
-    "fetch_duration_seconds": 131.161994,
+    "last_fetch_completed": "2026-10-30T21:09:38.782711",
+    "fetch_duration_seconds": 126.490415,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-30T18:13:35.173463",
+  "last_updated": "2026-10-30T21:09:38.782740",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
