@@ -496,8 +496,8 @@
     "desktop.md": {
       "original_url": "https://code.claude.com/docs/en/desktop",
       "original_md_url": "https://code.claude.com/docs/en/desktop.md",
-      "hash": "9b3269d46f57b86db6b03abe652f458c9c4ab298bc3b4e5b8ddbeca0614637e3",
-      "last_updated": "2026-10-30T18:12:13.392898"
+      "hash": "0b9c66683c20346bccce5edf45162f1945d19b7db29ee115626819e17dfdfe67",
+      "last_updated": "2026-10-31T00:26:07.718870"
     },
     "desktop-ios-simulator.md": {
       "original_url": "https://code.claude.com/docs/en/desktop-ios-simulator",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-10-30T21:09:38.782711",
-    "fetch_duration_seconds": 126.490415,
+    "last_fetch_completed": "2026-10-31T00:27:28.814344",
+    "fetch_duration_seconds": 127.875527,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-10-30T21:09:38.782740",
+  "last_updated": "2026-10-31T00:27:28.814377",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
