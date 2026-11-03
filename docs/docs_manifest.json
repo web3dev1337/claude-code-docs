@@ -1114,8 +1114,8 @@
     "setup.md": {
       "original_url": "https://code.claude.com/docs/en/setup",
       "original_md_url": "https://code.claude.com/docs/en/setup.md",
-      "hash": "652872f26cfd711c4f92351b1ef8338d3f0b6140024c246c42edcbcbdfea172d",
-      "last_updated": "2026-11-01T18:11:54.664419"
+      "hash": "4c3cd110ffc0f00002b70a42ab0b6dc82f193cce52c9666c1184b33d98cd1471",
+      "last_updated": "2026-11-03T18:13:14.736496"
     },
     "skills.md": {
       "original_url": "https://code.claude.com/docs/en/skills",
@@ -1365,8 +1365,8 @@
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-11-03T15:10:50.663449",
-    "fetch_duration_seconds": 125.507694,
+    "last_fetch_completed": "2026-11-03T18:13:37.638221",
+    "fetch_duration_seconds": 128.336521,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-11-03T15:10:50.663484",
+  "last_updated": "2026-11-03T18:13:37.638259",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
