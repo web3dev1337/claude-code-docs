@@ -1267,7 +1267,7 @@ On Linux and WSL2 the sandbox needs `bubblewrap` and `socat`; see [Set up Linux 
 
 ### `sandbox.failIfUnavailable`
 
-Make Claude Code exit with an error at startup when `sandbox.enabled` is `true` but the sandbox can't start, because a dependency is missing or the platform is unsupported. Without this key, Claude Code runs commands unsandboxed. Managed deployments that require sandboxing as a security gate can use this setting.
+Make Claude Code exit with an error at startup when `sandbox.enabled` is `true` but the sandbox can't start because the platform doesn't support it or the dependency check fails. Without this key, Claude Code runs commands unsandboxed. Managed deployments that require sandboxing as a security gate can use this setting.
 
 On a platform the sandbox doesn't support, Claude Code doesn't start with this key on. See [Enforce sandboxing with managed settings](https://code.claude.com/docs/en/sandboxing.md#enforce-sandboxing-with-managed-settings).
 
