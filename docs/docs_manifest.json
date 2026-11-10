@@ -1360,13 +1360,13 @@
     "zero-data-retention.md": {
       "original_url": "https://code.claude.com/docs/en/zero-data-retention",
       "original_md_url": "https://code.claude.com/docs/en/zero-data-retention.md",
-      "hash": "3e201f9929d89530fed35f717403614a3d7bf8346838d50b14f0cb9cebd3d6ea",
-      "last_updated": "2026-11-09T21:10:22.697654"
+      "hash": "76ce1148782ed8400e1b1db3aefd8fb3e6c25964b2a9df1f46628c6c3ccecd18",
+      "last_updated": "2026-11-10T15:11:03.659535"
     }
   },
   "fetch_metadata": {
-    "last_fetch_completed": "2026-11-10T12:15:43.554476",
-    "fetch_duration_seconds": 120.11575,
+    "last_fetch_completed": "2026-11-10T15:11:03.678497",
+    "fetch_duration_seconds": 130.230733,
     "total_pages_discovered": 227,
     "pages_fetched_successfully": 228,
     "pages_failed": 0,
@@ -1376,7 +1376,7 @@
     "total_files": 227,
     "fetch_tool_version": "3.0"
   },
-  "last_updated": "2026-11-10T12:15:43.554512",
+  "last_updated": "2026-11-10T15:11:03.678526",
   "base_url": "https://raw.githubusercontent.com/web3dev1337/claude-code-docs/main/docs/",
   "github_repository": "web3dev1337/claude-code-docs",
   "github_ref": "main",
