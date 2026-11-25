@@ -258,7 +258,7 @@ Claude Code syncs only in a session that signs in with your claude.ai account an
 * A session that doesn't use a sign-in stored by `/login`, such as one that authenticates with an API key, or one where `ANTHROPIC_AUTH_TOKEN`, `CLAUDE_CODE_OAUTH_TOKEN`, or an `apiKeyHelper` script supplies the credential
 * A session that doesn't fetch feature flags, such as one on Amazon Bedrock or one where you set `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`
 * A session in [bare mode](https://code.claude.com/docs/en/headless.md#start-faster-with-bare-mode) or one you start with `--safe-mode`
-* A session where your organization's managed settings [lock skills to plugin sources](https://code.claude.com/docs/en/settings-reference.md#strictpluginonlycustomization-skills), or one you start with a [`--setting-sources`](https://code.claude.com/docs/en/cli-reference#cli-flags) list that leaves out `user`
+* A session where managed settings [lock skills to plugin sources](https://code.claude.com/docs/en/settings-reference.md#strictpluginonlycustomization-skills), or one you start with a [`--setting-sources`](https://code.claude.com/docs/en/cli-reference#cli-flags) list that omits `user`
 
 If you sign in with `/login` during a session, restart Claude Code to start syncing.
 
